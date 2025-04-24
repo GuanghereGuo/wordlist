@@ -1,0 +1,17 @@
+file_path: "../xlsx/words.xlsx"
+columns:
+  word: 1
+  phonetic: 2
+  definition: 3
+  example: 4
+  status: 6
+  wrong_history: 7
+request:
+  delay: 0.3
+  retries: 3
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+format:
+  font:
+    name: "Arial"
+    size: 12
+  sort: True
