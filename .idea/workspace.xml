@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/fetcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/word_cache.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/xlsx/words.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tests/words.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/word_processor.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/xlsx/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/xlsx/words.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +24,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GuanghereGuo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GuanghereGuo&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/GuanghereGuo/wordlist.git",
+    "url": "git@github.com:GuanghereGuo/wordlist.git",
     "accountId": "35825d57-943b-45b6-8e14-3b08218581ad"
   }
 }]]></component>
@@ -73,7 +59,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/BaiduSyncdisk/mycode/wordlist",
+    "last_opened_file_path": "D:/Mygit/wordlist",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,6 +90,7 @@
       <updated>1745421008610</updated>
       <workItem from="1745421009556" duration="2388000" />
       <workItem from="1745500872608" duration="7132000" />
+      <workItem from="1746541414912" duration="638000" />
     </task>
     <servers />
   </component>
@@ -113,7 +100,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wordlist$test01.coverage" NAME="test01 覆盖结果" MODIFIED="1745421184204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$test04.coverage" NAME="test04 覆盖结果" MODIFIED="1745423041117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1745507999998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1746542092530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test02.coverage" NAME="test02 覆盖结果" MODIFIED="1745421936786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1745504051133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test03.coverage" NAME="test03 覆盖结果" MODIFIED="1745422624070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
