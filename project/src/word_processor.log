@@ -1164,3 +1164,391 @@
 2025-05-06 22:38:13,609 - INFO - �����Ѵ�������: cane
 2025-05-06 22:38:13,634 - INFO - ������ɣ����浽 ../xlsx/words.xlsx
 2025-05-06 22:38:13,685 - INFO - ����������: ../xlsx/words.xlsx
+2025-09-08 20:19:45,341 - INFO - 备份已创建: ../xlsx/backup/words.xlsx_backup_20250908_201945.xlsx
+2025-09-08 20:19:45,367 - INFO - 开始处理工作表: words
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: apparatus
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: batch
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: assemble
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: brow
+2025-09-08 20:19:45,367 - INFO - 开始处理工作表: Sheet1
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: accordance
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: acquaint
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: acute
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: adequate
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: aerial
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: affluent
+2025-09-08 20:19:45,367 - INFO - 跳过已处理单词: aisle
+2025-09-08 20:19:45,367 - INFO - 开始处理工作表: Sheet2
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: apparatus
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: applicable
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: appliance
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: ample
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: amateur
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: aluminium
+2025-09-08 20:19:45,368 - INFO - 跳过已处理单词: aptitude
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: arbitrary
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: arithmetic
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: anchor
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: ashore
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: allege
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: ally
+2025-09-08 20:19:45,369 - INFO - 开始处理工作表: Sheet3
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: assemble
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: resemble
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: asset
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: attain
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: attic
+2025-09-08 20:19:45,369 - INFO - 跳过已处理单词: attorney
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: auditorium
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: authorize
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: auxiliary
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: aviation
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: avenue
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: axis
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bachelor
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bacteria
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: badge
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: band
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bandge
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bail
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bait
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: ballot
+2025-09-08 20:19:45,370 - INFO - 开始处理工作表: Sheet4
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: banknote
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: banner
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: banquet
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: barbecue
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bargain
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: barn
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: barrel
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: barrier
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: basis
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: biases
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: batch
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: battalion
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: beam
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bearing
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: beggar
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: belly
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: beverage
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bias
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bind
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: band
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: bond
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: blast
+2025-09-08 20:19:45,370 - INFO - 跳过已处理单词: blend
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: blond
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bloom
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: blossom
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: blur
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bold
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bow
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bolt
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bonus
+2025-09-08 20:19:45,371 - INFO - 开始处理工作表: Sheet5
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: booth
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bounce
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bound
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bowel
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bowl
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bracket
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: carpet
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: blanket
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: basket
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bucket
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: brag
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: brake
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: brandy
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: breast
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bra
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bribe
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: bride
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: briefcase
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: brochure
+2025-09-08 20:19:45,371 - INFO - 跳过已处理单词: butcher
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: broker
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: broom
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: brow
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: brutal
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: buck
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: buckle
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bud
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bulb
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bulk
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bulletin
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bump
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bumper
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bunch
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: branch
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bundle
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bureau
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: bypass
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: cabbage
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: garbage
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: cabin
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: cabinet
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: calf
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: camel
+2025-09-08 20:19:45,372 - INFO - 跳过已处理单词: cane
+2025-09-08 20:19:45,372 - INFO - 开始处理工作表: Sheet6
+2025-09-08 20:19:45,713 - INFO - 已处理: commission
+2025-09-08 20:19:46,422 - INFO - 已处理: notion
+2025-09-08 20:19:47,168 - INFO - 已处理: subordinate
+2025-09-08 20:19:47,656 - ERROR - 获取单词 suppress 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:19:52,775 - ERROR - 获取单词 suppress 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:19:57,927 - ERROR - 获取单词 suppress 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:19:57,927 - ERROR - 单词 suppress 获取失败，已记录
+2025-09-08 20:19:57,927 - ERROR - 处理失败: suppress
+2025-09-08 20:19:58,341 - INFO - 已处理: deficit
+2025-09-08 20:19:58,797 - ERROR - 获取单词 collide 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:04,087 - INFO - 已处理: collide
+2025-09-08 20:20:04,502 - ERROR - 获取单词 revenge 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:09,719 - ERROR - 获取单词 revenge 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:14,933 - INFO - 已处理: revenge
+2025-09-08 20:20:15,566 - ERROR - 获取单词 avenge 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:20,798 - ERROR - 获取单词 avenge 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:26,164 - INFO - 已处理: avenge
+2025-09-08 20:20:26,757 - INFO - 已处理: adhere
+2025-09-08 20:20:27,232 - ERROR - 获取单词 conspicuous 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:32,586 - INFO - 已处理: conspicuous
+2025-09-08 20:20:33,136 - INFO - 已处理: vulnerable
+2025-09-08 20:20:34,297 - INFO - 已处理: gaze
+2025-09-08 20:20:34,730 - ERROR - 获取单词 publication 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:40,004 - INFO - 已处理: publication
+2025-09-08 20:20:40,424 - ERROR - 获取单词 bald 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:45,676 - INFO - 已处理: bald
+2025-09-08 20:20:46,117 - ERROR - 获取单词 cherish 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:51,235 - ERROR - 获取单词 cherish 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:56,379 - ERROR - 获取单词 cherish 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:20:56,379 - ERROR - 单词 cherish 获取失败，已记录
+2025-09-08 20:20:56,380 - ERROR - 处理失败: cherish
+2025-09-08 20:20:56,625 - INFO - 已处理: compound
+2025-09-08 20:20:58,194 - INFO - 已处理: fatigue
+2025-09-08 20:20:58,821 - INFO - 已处理: exhaustion
+2025-09-08 20:20:59,284 - ERROR - 获取单词 gloomy 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:04,413 - ERROR - 获取单词 gloomy 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:09,686 - INFO - 已处理: gloomy
+2025-09-08 20:21:10,086 - ERROR - 获取单词 gullible 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:15,209 - ERROR - 获取单词 gullible 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:20,357 - ERROR - 获取单词 gullible 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:20,358 - ERROR - 单词 gullible 获取失败，已记录
+2025-09-08 20:21:20,358 - ERROR - 处理失败: gullible
+2025-09-08 20:21:20,535 - ERROR - 获取单词 navigation 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:25,809 - ERROR - 获取单词 navigation 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:30,995 - ERROR - 获取单词 navigation 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:30,995 - ERROR - 单词 navigation 获取失败，已记录
+2025-09-08 20:21:30,996 - ERROR - 处理失败: navigation
+2025-09-08 20:21:31,172 - ERROR - 获取单词 sue 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:36,307 - ERROR - 获取单词 sue 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:41,461 - ERROR - 获取单词 sue 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:41,461 - ERROR - 单词 sue 获取失败，已记录
+2025-09-08 20:21:41,463 - ERROR - 处理失败: sue
+2025-09-08 20:21:41,598 - ERROR - 获取单词 suburb 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:46,746 - ERROR - 获取单词 suburb 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:51,964 - INFO - 已处理: suburb
+2025-09-08 20:21:52,376 - ERROR - 获取单词 critical 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:21:58,128 - INFO - 已处理: critical
+2025-09-08 20:21:58,729 - ERROR - 获取单词 transaction 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:04,121 - INFO - 已处理: transaction
+2025-09-08 20:22:04,690 - INFO - 已处理: incentive
+2025-09-08 20:22:05,281 - ERROR - 获取单词 confront 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:10,400 - ERROR - 获取单词 confront 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:15,617 - ERROR - 获取单词 confront 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:15,617 - ERROR - 单词 confront 获取失败，已记录
+2025-09-08 20:22:15,618 - ERROR - 处理失败: confront
+2025-09-08 20:22:15,752 - ERROR - 获取单词 virtually 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:21,691 - INFO - 已处理: virtually
+2025-09-08 20:22:22,664 - INFO - 已处理: perceive
+2025-09-08 20:22:23,230 - WARNING - 部分成功: practitioner
+2025-09-08 20:22:23,230 - INFO - 已处理: practitioner
+2025-09-08 20:22:24,718 - ERROR - 获取单词 obscure 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:31,221 - INFO - 已处理: obscure
+2025-09-08 20:22:31,682 - ERROR - 获取单词 hemisphere 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:37,972 - INFO - 已处理: hemisphere
+2025-09-08 20:22:38,425 - ERROR - 获取单词 deprive 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:43,788 - INFO - 已处理: deprive
+2025-09-08 20:22:44,225 - ERROR - 获取单词 trivial 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:49,355 - ERROR - 获取单词 trivial 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:54,466 - ERROR - 获取单词 trivial 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:54,466 - ERROR - 单词 trivial 获取失败，已记录
+2025-09-08 20:22:54,467 - ERROR - 处理失败: trivial
+2025-09-08 20:22:54,586 - ERROR - 获取单词 immigrant 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:22:59,799 - INFO - 已处理: immigrant
+2025-09-08 20:23:00,205 - ERROR - 获取单词 religious 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:23:05,345 - ERROR - 获取单词 religious 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:23:10,482 - ERROR - 获取单词 religious 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:23:10,482 - ERROR - 单词 religious 获取失败，已记录
+2025-09-08 20:23:10,484 - ERROR - 处理失败: religious
+2025-09-08 20:23:11,164 - INFO - 已处理: immigration
+2025-09-08 20:23:11,529 - INFO - 处理完成，保存到 ../xlsx/words.xlsx
+2025-09-08 20:23:11,649 - INFO - 字体已设置: ../xlsx/words.xlsx
+2025-09-08 20:24:27,574 - INFO - 备份已创建: ../xlsx/backup/words.xlsx_backup_20250908_202427.xlsx
+2025-09-08 20:24:27,622 - INFO - 开始处理工作表: words
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: apparatus
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: batch
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: assemble
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: brow
+2025-09-08 20:24:27,623 - INFO - 开始处理工作表: Sheet1
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: accordance
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: acquaint
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: acute
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: adequate
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: aerial
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: affluent
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: aisle
+2025-09-08 20:24:27,623 - INFO - 开始处理工作表: Sheet2
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: apparatus
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: applicable
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: appliance
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: ample
+2025-09-08 20:24:27,623 - INFO - 跳过已处理单词: amateur
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: aluminium
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: aptitude
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: arbitrary
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: arithmetic
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: anchor
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: ashore
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: allege
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: ally
+2025-09-08 20:24:27,624 - INFO - 开始处理工作表: Sheet3
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: assemble
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: resemble
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: asset
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: attain
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: attic
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: attorney
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: auditorium
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: authorize
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: auxiliary
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: aviation
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: avenue
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: axis
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: bachelor
+2025-09-08 20:24:27,624 - INFO - 跳过已处理单词: bacteria
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: badge
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: band
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: bandge
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: bail
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: bait
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: ballot
+2025-09-08 20:24:27,626 - INFO - 开始处理工作表: Sheet4
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: banknote
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: banner
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: banquet
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: barbecue
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: bargain
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: barn
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: barrel
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: barrier
+2025-09-08 20:24:27,626 - INFO - 跳过已处理单词: basis
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: biases
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: batch
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: battalion
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: beam
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bearing
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: beggar
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: belly
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: beverage
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bias
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bind
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: band
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bond
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: blast
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: blend
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: blond
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bloom
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: blossom
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: blur
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bold
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bow
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bolt
+2025-09-08 20:24:27,627 - INFO - 跳过已处理单词: bonus
+2025-09-08 20:24:27,627 - INFO - 开始处理工作表: Sheet5
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: booth
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bounce
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bound
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bowel
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bowl
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bracket
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: carpet
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: blanket
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: basket
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bucket
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: brag
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: brake
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: brandy
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: breast
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bra
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bribe
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bride
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: briefcase
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: brochure
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: butcher
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: broker
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: broom
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: brow
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: brutal
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: buck
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: buckle
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bud
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bulb
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bulk
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bulletin
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bump
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bumper
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bunch
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: branch
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bundle
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bureau
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: bypass
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: cabbage
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: garbage
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: cabin
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: cabinet
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: calf
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: camel
+2025-09-08 20:24:27,629 - INFO - 跳过已处理单词: cane
+2025-09-08 20:24:27,629 - INFO - 开始处理工作表: Sheet6
+2025-09-08 20:24:27,631 - INFO - 跳过已处理单词: commission
+2025-09-08 20:24:27,631 - INFO - 跳过已处理单词: notion
+2025-09-08 20:24:27,631 - INFO - 跳过已处理单词: subordinate
+2025-09-08 20:24:28,175 - INFO - 已处理: suppress
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: deficit
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: collide
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: revenge
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: avenge
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: adhere
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: conspicuous
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: vulnerable
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: gaze
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: publication
+2025-09-08 20:24:28,475 - INFO - 跳过已处理单词: bald
+2025-09-08 20:24:28,709 - INFO - 已处理: cherish
+2025-09-08 20:24:29,010 - INFO - 跳过已处理单词: compound
+2025-09-08 20:24:29,010 - INFO - 跳过已处理单词: fatigue
+2025-09-08 20:24:29,010 - INFO - 跳过已处理单词: exhaustion
+2025-09-08 20:24:29,010 - INFO - 跳过已处理单词: gloomy
+2025-09-08 20:24:29,168 - ERROR - 获取单词 gullible 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:34,282 - ERROR - 获取单词 gullible 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:39,409 - ERROR - 获取单词 gullible 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:39,409 - ERROR - 单词 gullible 获取失败，已记录
+2025-09-08 20:24:39,409 - ERROR - 处理失败: gullible
+2025-09-08 20:24:39,679 - INFO - 已处理: navigation
+2025-09-08 20:24:40,315 - INFO - 已处理: sue
+2025-09-08 20:24:40,615 - INFO - 跳过已处理单词: suburb
+2025-09-08 20:24:40,615 - INFO - 跳过已处理单词: critical
+2025-09-08 20:24:40,615 - INFO - 跳过已处理单词: transaction
+2025-09-08 20:24:40,615 - INFO - 跳过已处理单词: incentive
+2025-09-08 20:24:40,733 - ERROR - 获取单词 confront 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:45,839 - ERROR - 获取单词 confront 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:50,982 - ERROR - 获取单词 confront 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:50,982 - ERROR - 单词 confront 获取失败，已记录
+2025-09-08 20:24:50,984 - ERROR - 处理失败: confront
+2025-09-08 20:24:50,984 - INFO - 跳过已处理单词: virtually
+2025-09-08 20:24:50,984 - INFO - 跳过已处理单词: perceive
+2025-09-08 20:24:50,984 - INFO - 跳过已处理单词: practitioner
+2025-09-08 20:24:50,984 - INFO - 跳过已处理单词: obscure
+2025-09-08 20:24:50,984 - INFO - 跳过已处理单词: hemisphere
+2025-09-08 20:24:50,984 - INFO - 跳过已处理单词: deprive
+2025-09-08 20:24:51,101 - ERROR - 获取单词 trivial 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-09-08 20:24:56,221 - ERROR - 获取单词 trivial 信息出错: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
