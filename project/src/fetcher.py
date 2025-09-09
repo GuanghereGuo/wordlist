@@ -27,7 +27,7 @@ def get_word_info(word, config):
         except Exception as e:
             logging.error(f"获取单词 {word} 信息出错: {e}")
         if attempt < retries - 1:
-            time.sleep(5)
+            time.sleep(4)
     logging.error(f"单词 {word} 获取失败，已记录")
     with open('failed_words.txt', 'a', encoding='utf-8') as f:
         f.write(f"{word}\n")
