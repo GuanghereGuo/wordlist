@@ -5,7 +5,7 @@ import logging
 
 def get_word_info(word, config):
     """从有道词典获取单词信息"""
-    url = f"http://dict.youdao.com/w/{word}/"
+    url = f"https://dict.youdao.com/w/{word}/"
     headers = {'User-Agent': config['request']['user_agent']}
     retries = config['request']['retries']
     for attempt in range(retries):
