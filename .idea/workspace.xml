@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit 0909" />
+    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit 0909">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/word_processor.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/xlsx/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/xlsx/words.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/xlsx/words_bal.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/xlsx/新建 Microsoft Excel 工作表.xlsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +34,12 @@
     &quot;assignee&quot;: &quot;GuanghereGuo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GuanghereGuo/wordlist.git",
-    "accountId": "35825d57-943b-45b6-8e14-3b08218581ad"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GuanghereGuo/wordlist.git&quot;,
+    &quot;accountId&quot;: &quot;35825d57-943b-45b6-8e14-3b08218581ad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -40,33 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.fetcher.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.test01.executor": "Run",
-    "Python.test02.executor": "Run",
-    "Python.test03.executor": "Run",
-    "Python.test04.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Mygit/wordlist",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.fetcher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mygit/wordlist&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BaiduSyncdisk\mycode\wordlist" />
@@ -91,7 +99,8 @@
       <workItem from="1745500872608" duration="7132000" />
       <workItem from="1746541414912" duration="638000" />
       <workItem from="1757333721533" duration="980000" />
-      <workItem from="1757428672797" duration="1971000" />
+      <workItem from="1757428672797" duration="1988000" />
+      <workItem from="1757553382628" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="commit 0908">
       <option name="closed" value="true" />
@@ -109,11 +118,30 @@
       <option name="project" value="LOCAL" />
       <updated>1757430805295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit 0909">
+      <option name="closed" value="true" />
+      <created>1757430846975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757430846975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 0908" />
@@ -122,7 +150,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wordlist$fetcher.coverage" NAME="fetcher 覆盖结果" MODIFIED="1757430762444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
-    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1757430765809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1757556276017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test02.coverage" NAME="test02 覆盖结果" MODIFIED="1745421936786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1745504051133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test04.coverage" NAME="test04 覆盖结果" MODIFIED="1745423041117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
