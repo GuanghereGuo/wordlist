@@ -22,3 +22,5 @@ entity in Sheet2
 factually in Sheet2
 deterioate in Sheet2
 commision in Sheet3
+instrinsic in day8
+comtemplate in day8
