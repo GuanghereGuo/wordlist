@@ -24,3 +24,4 @@ deterioate in Sheet2
 commision in Sheet3
 instrinsic in day8
 comtemplate in day8
+empirrical in day12

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day9">
+    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day10&amp;11">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/word_processor.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/xlsx/words - 副本.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/xlsx/words - 副本.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/xlsx/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/xlsx/words.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +111,7 @@
       <workItem from="1758155915295" duration="2885000" />
       <workItem from="1758162515581" duration="32000" />
       <workItem from="1758786201270" duration="79000" />
+      <workItem from="1760056272596" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary="commit 0908">
       <option name="closed" value="true" />
@@ -191,12 +195,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit day9" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wordlist$fetcher.coverage" NAME="fetcher 覆盖结果" MODIFIED="1757430762444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1760062185003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test02.coverage" NAME="test02 覆盖结果" MODIFIED="1745421936786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1745504051133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
-    <SUITE FILE_PATH="coverage/wordlist$test01.coverage" NAME="test01 覆盖结果" MODIFIED="1745421184204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wordlist$fetcher.coverage" NAME="fetcher 覆盖结果" MODIFIED="1757430762444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
-    <SUITE FILE_PATH="coverage/wordlist$test03.coverage" NAME="test03 覆盖结果" MODIFIED="1745422624070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$test04.coverage" NAME="test04 覆盖结果" MODIFIED="1745423041117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1758789325551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$test01.coverage" NAME="test01 覆盖结果" MODIFIED="1745421184204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wordlist$test03.coverage" NAME="test03 覆盖结果" MODIFIED="1745422624070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
