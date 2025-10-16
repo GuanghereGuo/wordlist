@@ -25,3 +25,5 @@ commision in Sheet3
 instrinsic in day8
 comtemplate in day8
 empirrical in day12
+perpetual in day12
+grasp in day13
