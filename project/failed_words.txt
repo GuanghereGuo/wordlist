@@ -27,3 +27,5 @@ comtemplate in day8
 empirrical in day12
 perpetual in day12
 grasp in day13
+tropical in day14
+confusion in day14
