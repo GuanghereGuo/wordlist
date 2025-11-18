@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day14 &amp; day13,12 revision">
+    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day15 &amp; day14,13 revision">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wordlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wordlist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/failed_words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/word_processor.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/xlsx/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/xlsx/words.xlsx" afterDir="false" />
     </list>
@@ -53,6 +54,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
     &quot;Python.fetcher.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.test01.executor&quot;: &quot;Run&quot;,
@@ -73,7 +75,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -118,6 +120,10 @@
       <workItem from="1761010591685" duration="325000" />
       <workItem from="1761010940611" duration="1191000" />
       <workItem from="1761181986718" duration="418000" />
+      <workItem from="1761185442738" duration="53000" />
+      <workItem from="1761872415887" duration="784000" />
+      <workItem from="1763426179877" duration="924000" />
+      <workItem from="1763428016241" duration="1261000" />
     </task>
     <task id="LOCAL-00001" summary="commit 0908">
       <option name="closed" value="true" />
@@ -199,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761012723185</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit day15 &amp; day14,13 revision">
+      <option name="closed" value="true" />
+      <created>1761185481774</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761185481774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,13 +239,15 @@
     <MESSAGE value="commit day12" />
     <MESSAGE value="commit day13 &amp; day12 revision" />
     <MESSAGE value="commit day14 &amp; day13,12 revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit day14 &amp; day13,12 revision" />
+    <MESSAGE value="commit day15 &amp; day14,13 revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit day15 &amp; day14,13 revision" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wordlist$fetcher.coverage" NAME="fetcher 覆盖结果" MODIFIED="1757430762444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
-    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1761182301496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1763430334885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test02.coverage" NAME="test02 覆盖结果" MODIFIED="1745421936786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1745504051133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$config.coverage" NAME="config 覆盖结果" MODIFIED="1763426920229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test04.coverage" NAME="test04 覆盖结果" MODIFIED="1745423041117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$test01.coverage" NAME="test01 覆盖结果" MODIFIED="1745421184204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$test03.coverage" NAME="test03 覆盖结果" MODIFIED="1745422624070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

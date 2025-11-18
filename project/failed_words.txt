@@ -34,3 +34,5 @@ concession in day15
 consolidate in day15
 deliberate in day15
 excess in day15
+comtemplate in day15
+toughtful in day17
