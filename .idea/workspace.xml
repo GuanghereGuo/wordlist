@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day15 &amp; day14,13 revision">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wordlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wordlist.iml" afterDir="false" />
+    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/word_processor.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
@@ -123,7 +121,8 @@
       <workItem from="1761185442738" duration="53000" />
       <workItem from="1761872415887" duration="784000" />
       <workItem from="1763426179877" duration="924000" />
-      <workItem from="1763428016241" duration="1261000" />
+      <workItem from="1763428016241" duration="1454000" />
+      <workItem from="1763604107223" duration="959000" />
     </task>
     <task id="LOCAL-00001" summary="commit 0908">
       <option name="closed" value="true" />
@@ -213,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761185481774</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit day17">
+      <option name="closed" value="true" />
+      <created>1763430482091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763430482091</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,16 +247,25 @@
     <MESSAGE value="commit day13 &amp; day12 revision" />
     <MESSAGE value="commit day14 &amp; day13,12 revision" />
     <MESSAGE value="commit day15 &amp; day14,13 revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit day15 &amp; day14,13 revision" />
+    <MESSAGE value="commit day17" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit day17" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wordlist$fetcher.coverage" NAME="fetcher 覆盖结果" MODIFIED="1757430762444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
-    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1763430334885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
+    <SUITE FILE_PATH="coverage/wordlist$main.coverage" NAME="main 覆盖结果" MODIFIED="1763605028177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test02.coverage" NAME="test02 覆盖结果" MODIFIED="1745421936786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$utils.coverage" NAME="utils 覆盖结果" MODIFIED="1745504051133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$config.coverage" NAME="config 覆盖结果" MODIFIED="1763426920229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />
     <SUITE FILE_PATH="coverage/wordlist$test04.coverage" NAME="test04 覆盖结果" MODIFIED="1745423041117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$test01.coverage" NAME="test01 覆盖结果" MODIFIED="1745421184204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wordlist$test03.coverage" NAME="test03 覆盖结果" MODIFIED="1745422624070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

@@ -36,3 +36,4 @@ deliberate in day15
 excess in day15
 comtemplate in day15
 toughtful in day17
+compatble in day18
