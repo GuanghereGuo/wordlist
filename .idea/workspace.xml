@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day17">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/failed_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project/failed_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/word_processor.log" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/word_processor.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/xlsx/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project/xlsx/words.xlsx" afterDir="false" />
-    </list>
+    <list default="true" id="bee408c3-d645-43ac-8a51-e15ee97a006c" name="更改" comment="commit day18" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +118,7 @@
       <workItem from="1763426179877" duration="924000" />
       <workItem from="1763428016241" duration="1454000" />
       <workItem from="1763604107223" duration="959000" />
+      <workItem from="1763640040014" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="commit 0908">
       <option name="closed" value="true" />
@@ -220,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763430482091</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit day18">
+      <option name="closed" value="true" />
+      <created>1763640061675</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1763640061675</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +252,8 @@
     <MESSAGE value="commit day14 &amp; day13,12 revision" />
     <MESSAGE value="commit day15 &amp; day14,13 revision" />
     <MESSAGE value="commit day17" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit day17" />
+    <MESSAGE value="commit day18" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit day18" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wordlist$fetcher.coverage" NAME="fetcher 覆盖结果" MODIFIED="1757430762444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/src" />

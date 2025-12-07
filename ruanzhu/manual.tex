@@ -1,0 +1,248 @@
+%===========================================================
+% 软件著作权说明书 - LaTeX源文件
+% 编译器：XeLaTeX
+%===========================================================
+
+\documentclass{mancls} % 调用 mancls 文档类 (不加 code 选项即为说明书)
+
+\usepackage{graphicx} % 图片支持
+\usepackage{float}    % 强制图片位置
+
+%-----------------------------------------------------------
+% 软件名称
+%-----------------------------------------------------------
+\title{基于Excel的英语词汇辅助学习系统V1.0}
+
+\begin{document}
+
+% 标题页和目录页由模板自动生成
+
+%===========================================================
+% 正文开始
+%===========================================================
+
+\section{引言}
+
+\subsection{编写目的}
+本手册旨在为“基于Excel的英语词汇辅助学习系统V1.0”的用户提供详细的安装、配置及操作指南。本系统专为英语学习者、教育工作者及语言研究人员设计，旨在解决传统单词学习中人工查询释义繁琐、数据整理效率低下、复习资料格式混乱等痛点。通过阅读本手册，用户可以掌握软件的全流程操作，实现个性化词汇库的自动化构建。
+
+\subsection{软件概述}
+本系统是一款集成了数据采集、自然语言处理与文档自动化管理的桌面端软件。系统采用 Python 语言开发，深度整合了 Excel 文档处理技术与网络爬虫技术。其核心功能是读取用户指定的 Excel 单词表，自动连接在线词典接口（如 Youdao API），精准抓取单词的音标（Phonetic）、释义（Definition）及权威例句（Example），并将数据智能回填至原表格中。
+
+此外，系统还具备以下企业级特性：
+\begin{itemize}
+    \item \textbf{数据安全机制}：在每次写入操作前自动生成带时间戳的备份文件，彻底杜绝数据丢失风险。
+    \item \textbf{断点续传能力}：自动识别已处理状态，网络中断或程序崩溃后重启即可接着上次进度继续运行。
+    \item \textbf{无损格式化}：在美化排版的同时，智能保留用户原有的单元格颜色标记，尊重用户的学习笔记习惯。
+\end{itemize}
+
+\section{运行环境与安装}
+
+\subsection{硬件要求}
+本软件对硬件配置要求较低，普通办公电脑即可流畅运行：
+\begin{itemize}
+    \item \textbf{处理器}：Intel Core i3 或同级别 AMD 处理器及以上。
+    \item \textbf{内存}：建议 4GB RAM 及以上。
+    \item \textbf{硬盘空间}：软件主体占用约 50MB，建议预留 500MB 以上空间用于存储备份文件。
+    \item \textbf{网络连接}：必须连接互联网（推荐宽带或稳定的 Wi-Fi），用于实时获取词典数据。
+\end{itemize}
+
+\subsection{软件环境}
+\begin{itemize}
+    \item \textbf{操作系统}：Windows 10 / Windows 11 (64位)。
+    \item \textbf{运行依赖}：Python 3.8 及以上版本。
+    \item \textbf{必要运行库}：OpenPyXL, Requests, BeautifulSoup4, PyYAML。
+    \item \textbf{办公软件}：Microsoft Excel 2016+ 或 WPS Office（用于查看结果）。
+\end{itemize}
+
+\subsection{安装与目录结构}
+本软件为绿色免安装版，用户只需将软件包解压至任意无中文路径的文件夹即可。标准的目录结构如下所示：
+
+%-----------------------------------------------------------
+% 图片位置 1：文件结构图
+% 请截取包含 src, xlsx, config 文件夹的文件资源管理器界面
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{file_structure.png}
+%     \caption{软件安装目录结构示意图}
+%     \label{fig:structure}
+% \end{figure}
+
+如图 \ref{fig:structure} 所示：
+\begin{itemize}
+    \item \textbf{config/}：存放系统配置文件 \texttt{config.yaml}。
+    \item \textbf{xlsx/}：存放用户的数据源文件 \texttt{words.xlsx} 及自动生成的备份目录。
+    \item \textbf{src/}：存放软件的核心源代码及日志文件。
+\end{itemize}
+
+\section{软件配置指南}
+
+在使用软件前，用户可根据自身需求调整 \texttt{config/config.yaml} 文件。该设计使得软件具有极高的灵活性，能够适应不同格式的 Excel 表格。
+
+\subsection{Excel 列映射配置}
+软件允许用户自定义单词、音标、释义等信息在 Excel 中的列位置。默认配置如下：
+
+%-----------------------------------------------------------
+% 图片位置 2：配置文件代码截图
+% 请截取 config.yaml 文件的内容
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{config_code.png}
+%     \caption{配置文件参数详情}
+%     \label{fig:config}
+% \end{figure}
+
+\begin{itemize}
+    \item \textbf{file\_path}：指定待处理的 Excel 文件相对路径。
+    \item \textbf{columns}：定义各数据项对应的列号（A列对应1，B列对应2，以此类推）。
+    \begin{itemize}
+        \item \texttt{word: 1} （A列存放英文单词）
+        \item \texttt{phonetic: 2} （B列用于回填音标）
+        \item \texttt{definition: 3} （C列用于回填释义）
+        \item \texttt{example: 4} （D列用于回填例句）
+        \item \texttt{status: 6} （F列用于记录处理状态，避免重复抓取）
+    \end{itemize}
+\end{itemize}
+
+\subsection{网络请求配置}
+为了应对网络波动及防止被目标服务器封禁，软件内置了智能请求控制策略：
+\begin{itemize}
+    \item \textbf{delay}：请求间隔时间（默认0.3秒），适当的延时可以模拟人类操作。
+    \item \textbf{retries}：失败重试次数（默认3次），当网络超时，系统会自动重试。
+    \item \textbf{user\_agent}：浏览器伪装标识，确保请求的合法性。
+\end{itemize}
+
+\section{操作流程详解}
+
+\subsection{第一步：准备数据源}
+打开 \texttt{xlsx} 目录下的 \texttt{words.xlsx} 文件。在第一列（或配置文件中指定的 Word 列）纵向输入需要学习的英文单词。其他列留空即可，软件会自动处理。
+
+\textbf{注意}：数据准备完成后，请务必\textbf{关闭 Excel 文件}，否则软件无法获得写入权限。
+
+%-----------------------------------------------------------
+% 图片位置 3：原始Excel文件
+% 截取只有英文单词的Excel界面
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{excel_raw.png}
+%     \caption{数据源准备：仅需输入英文单词}
+%     \label{fig:raw}
+% \end{figure}
+
+\subsection{第二步：启动程序}
+双击运行 \texttt{run.bat} 或在命令行中执行 \texttt{python src/main.py}。程序启动后，系统将按照下图所示的逻辑进行处理：
+
+%-----------------------------------------------------------
+% 逻辑流程图 (使用TikZ绘制，无需截图)
+%-----------------------------------------------------------
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=1.5cm]
+    \node (start) [startstop] {开始运行};
+    \node (config) [io, below of=start] {读取 config.yaml};
+    \node (backup) [process, below of=config] {执行自动备份};
+    \node (loop) [decision, below of=backup, yshift=-0.5cm] {遍历\newline 行数据};
+    \node (check) [decision, below of=loop, yshift=-1.5cm] {检查\newline 状态};
+    \node (fetch) [process, right of=check, xshift=3cm] {网络抓取数据};
+    \node (save) [process, below of=fetch] {写入Excel单元格};
+    \node (end) [startstop, left of=save, xshift=-3cm] {保存并结束};
+
+    \draw [arrow] (start) -- (config);
+    \draw [arrow] (config) -- (backup);
+    \draw [arrow] (backup) -- (loop);
+    \draw [arrow] (loop) -- node[anchor=east] {有数据} (check);
+    \draw [arrow] (loop) -| node[anchor=south] {无更多数据} (end);
+    \draw [arrow] (check) -- node[anchor=south] {未处理} (fetch);
+    \draw [arrow] (check) -- node[anchor=west] {已处理/失败} (loop); % 回路
+    \draw [arrow] (fetch) -- (save);
+    \draw [arrow] (save) |- (loop);
+\end{tikzpicture}
+\caption{软件核心处理逻辑流程图}
+\end{figure}
+
+\subsection{第三步：监控运行进度}
+程序运行过程中，控制台会实时输出当前的进度日志。
+\begin{itemize}
+    \item \textbf{INFO: 已处理 [单词]}：表示该单词获取成功。
+    \item \textbf{WARNING: 部分成功}：表示可能缺失例句或音标，但核心释义已获取。
+    \item \textbf{ERROR: 处理失败}：表示单词拼写错误或词典中未收录。
+\end{itemize}
+
+%-----------------------------------------------------------
+% 图片位置 4：控制台运行截图
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{run_console.png}
+%     \caption{控制台实时显示处理进度}
+%     \label{fig:console}
+% \end{figure}
+
+\subsection{第四步：自动备份机制}
+为了防止意外情况导致用户辛辛苦苦收集的单词丢失，软件在每次运行的瞬间，都会在 \texttt{xlsx/backup} 目录下生成一个以当前时间命名的副本文件。
+
+%-----------------------------------------------------------
+% 图片位置 5：备份文件夹截图
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{backup_folder.png}
+%     \caption{系统自动生成的历史备份文件}
+%     \label{fig:backup}
+% \end{figure}
+
+\subsection{第五步：查看最终结果}
+待控制台显示“处理完成”后，打开 \texttt{words.xlsx}。此时，表格中的音标、释义、例句列均已自动填充完毕，且所有单元格均已应用了统一的字体和自动换行格式。
+
+%-----------------------------------------------------------
+% 图片位置 6：处理结果截图
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{excel_result.png}
+%     \caption{自动填充完毕的词汇学习表}
+%     \label{fig:result}
+% \end{figure}
+
+\section{特色功能演示}
+
+\subsection{无损格式化技术}
+本系统的一大特色是“无损格式化”。在调整字体（如统一为 Arial 12号）和对齐方式时，系统会通过深拷贝技术，完整保留用户手动设置的单元格背景色（如标记为红色的生词）和字体颜色。
+
+%-----------------------------------------------------------
+% 图片位置 7：格式细节截图
+%-----------------------------------------------------------
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{format_detail.png}
+%     \caption{格式化后依然保留了用户的高亮标记}
+%     \label{fig:format}
+% \end{figure}
+
+\subsection{失败重试与日志记录}
+对于因拼写错误或网络原因导致获取失败的单词，系统会自动将其记录在 \texttt{failed\_words.txt} 文件中，并在 Excel 的“错误历史”列进行标记，方便用户后续进行人工核对。
+
+\section{常见问题与故障排除}
+
+\begin{table}[h]
+\centering
+\caption{常见问题解决方案表}
+\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{问题现象} & \textbf{可能原因} & \textbf{解决方案} \\
+\hline
+Permission denied 报错 & Excel 文件正在被其他程序占用 & 请关闭所有打开的 Excel 窗口后重试。 \\
+\hline
+Connection Error & 网络连接中断或不稳定 & 检查网络设置，增加 config.yaml 中的 retries 次数。 \\
+\hline
+所有单词均失败 & IP 地址可能被目标服务器暂时限制 & 增加 config.yaml 中的 delay 值（如设为 1.0），或稍后重试。 \\
+\hline
+中文乱码 & 配置文件编码格式错误 & 确保 config.yaml 保存为 UTF-8 编码格式。 \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
