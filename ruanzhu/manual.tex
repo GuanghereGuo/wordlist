@@ -3,10 +3,11 @@
 % 编译器：XeLaTeX
 %===========================================================
 
-\documentclass{mancls} % 调用 mancls 文档类 (不加 code 选项即为说明书)
+\documentclass[14pt]{mancls} % 调用 mancls 文档类 (不加 code 选项即为说明书)
 
 \usepackage{graphicx} % 图片支持
 \usepackage{float}    % 强制图片位置
+\graphicspath{{figures/}} % 图片路径
 
 %-----------------------------------------------------------
 % 软件名称
@@ -14,6 +15,7 @@
 \title{基于Excel的英语词汇辅助学习系统V1.0}
 
 \begin{document}
+\zihao{-4}
 
 % 标题页和目录页由模板自动生成
 
@@ -27,7 +29,7 @@
 本手册旨在为“基于Excel的英语词汇辅助学习系统V1.0”的用户提供详细的安装、配置及操作指南。本系统专为英语学习者、教育工作者及语言研究人员设计，旨在解决传统单词学习中人工查询释义繁琐、数据整理效率低下、复习资料格式混乱等痛点。通过阅读本手册，用户可以掌握软件的全流程操作，实现个性化词汇库的自动化构建。
 
 \subsection{软件概述}
-本系统是一款集成了数据采集、自然语言处理与文档自动化管理的桌面端软件。系统采用 Python 语言开发，深度整合了 Excel 文档处理技术与网络爬虫技术。其核心功能是读取用户指定的 Excel 单词表，自动连接在线词典接口（如 Youdao API），精准抓取单词的音标（Phonetic）、释义（Definition）及权威例句（Example），并将数据智能回填至原表格中。
+本系统是一款集成了数据采集、自然语言处理与文档自动化管理的桌面端软件。系统采用 Python 语言开发，深度整合了 Excel 文档处理技术与网络爬虫技术。其核心功能是读取用户指定的 Excel 单词表，自动连接在线词典接口，精准抓取单词的音标、释义及权威例句，并将数据智能回填至原表格中。
 
 此外，系统还具备以下企业级特性：
 \begin{itemize}
@@ -62,12 +64,12 @@
 % 图片位置 1：文件结构图
 % 请截取包含 src, xlsx, config 文件夹的文件资源管理器界面
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8\textwidth]{file_structure.png}
-%     \caption{软件安装目录结构示意图}
-%     \label{fig:structure}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{file_structure.png}
+    \caption{软件安装目录结构示意图}
+    \label{fig:structure}
+\end{figure}
 
 如图 \ref{fig:structure} 所示：
 \begin{itemize}
@@ -87,12 +89,12 @@
 % 图片位置 2：配置文件代码截图
 % 请截取 config.yaml 文件的内容
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8\textwidth]{config_code.png}
-%     \caption{配置文件参数详情}
-%     \label{fig:config}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{config_code.png}
+    \caption{配置文件参数详情}
+    \label{fig:config}
+\end{figure}
 
 \begin{itemize}
     \item \textbf{file\_path}：指定待处理的 Excel 文件相对路径。
@@ -125,12 +127,12 @@
 % 图片位置 3：原始Excel文件
 % 截取只有英文单词的Excel界面
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.9\textwidth]{excel_raw.png}
-%     \caption{数据源准备：仅需输入英文单词}
-%     \label{fig:raw}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{excel_raw.png}
+    \caption{数据源准备：仅需输入英文单词}
+    \label{fig:raw}
+\end{figure}
 
 \subsection{第二步：启动程序}
 双击运行 \texttt{run.bat} 或在命令行中执行 \texttt{python src/main.py}。程序启动后，系统将按照下图所示的逻辑进行处理：
@@ -174,12 +176,12 @@
 %-----------------------------------------------------------
 % 图片位置 4：控制台运行截图
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8\textwidth]{run_console.png}
-%     \caption{控制台实时显示处理进度}
-%     \label{fig:console}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{run_console.png}
+    \caption{控制台实时显示处理进度}
+    \label{fig:console}
+\end{figure}
 
 \subsection{第四步：自动备份机制}
 为了防止意外情况导致用户辛辛苦苦收集的单词丢失，软件在每次运行的瞬间，都会在 \texttt{xlsx/backup} 目录下生成一个以当前时间命名的副本文件。
@@ -187,12 +189,12 @@
 %-----------------------------------------------------------
 % 图片位置 5：备份文件夹截图
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8\textwidth]{backup_folder.png}
-%     \caption{系统自动生成的历史备份文件}
-%     \label{fig:backup}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{backup_folder.png}
+    \caption{系统自动生成的历史备份文件}
+    \label{fig:backup}
+\end{figure}
 
 \subsection{第五步：查看最终结果}
 待控制台显示“处理完成”后，打开 \texttt{words.xlsx}。此时，表格中的音标、释义、例句列均已自动填充完毕，且所有单元格均已应用了统一的字体和自动换行格式。
@@ -200,12 +202,12 @@
 %-----------------------------------------------------------
 % 图片位置 6：处理结果截图
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.9\textwidth]{excel_result.png}
-%     \caption{自动填充完毕的词汇学习表}
-%     \label{fig:result}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{excel_result.png}
+    \caption{自动填充完毕的词汇学习表}
+    \label{fig:result}
+\end{figure}
 
 \section{特色功能演示}
 
@@ -215,12 +217,12 @@
 %-----------------------------------------------------------
 % 图片位置 7：格式细节截图
 %-----------------------------------------------------------
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8\textwidth]{format_detail.png}
-%     \caption{格式化后依然保留了用户的高亮标记}
-%     \label{fig:format}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{format_detail.png}
+    \caption{格式化后依然保留了用户的高亮标记}
+    \label{fig:format}
+\end{figure}
 
 \subsection{失败重试与日志记录}
 对于因拼写错误或网络原因导致获取失败的单词，系统会自动将其记录在 \texttt{failed\_words.txt} 文件中，并在 Excel 的“错误历史”列进行标记，方便用户后续进行人工核对。
