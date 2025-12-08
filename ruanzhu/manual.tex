@@ -138,31 +138,68 @@
 双击运行 \texttt{run.bat} 或在命令行中执行 \texttt{python src/main.py}。程序启动后，系统将按照下图所示的逻辑进行处理：
 
 %-----------------------------------------------------------
-% 逻辑流程图 (使用TikZ绘制，无需截图)
+% 修复版逻辑流程图
+% 请确保导言区引用了 \usetikzlibrary{positioning}
+% (mancls.cls 默认可能没有包含 positioning，我在下面代码里强制加上样式定义)
 %-----------------------------------------------------------
+
 \begin{figure}[H]
 \centering
-\begin{tikzpicture}[node distance=1.5cm]
-    \node (start) [startstop] {开始运行};
-    \node (config) [io, below of=start] {读取 config.yaml};
-    \node (backup) [process, below of=config] {执行自动备份};
-    \node (loop) [decision, below of=backup, yshift=-0.5cm] {遍历\newline 行数据};
-    \node (check) [decision, below of=loop, yshift=-1.5cm] {检查\newline 状态};
-    \node (fetch) [process, right of=check, xshift=3cm] {网络抓取数据};
-    \node (save) [process, below of=fetch] {写入Excel单元格};
-    \node (end) [startstop, left of=save, xshift=-3cm] {保存并结束};
+\begin{tikzpicture}[
+    node distance=1.2cm, % 调整基础间距
+    auto,
+    % 重新定义样式，确保宽度足够，文字不换行
+    startstop/.style={rectangle, rounded corners, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=red!30},
+    io/.style={trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!30},
+    process/.style={rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=orange!30},
+    decision/.style={diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=cyan!30, inner sep=0pt},
+    arrow/.style={thick,->,>=stealth}
+]
 
+    % 1. 放置节点 (使用 below of 可能会重叠，这里通过手动调节 node distance 解决)
+    \node (start) [startstop] {开始运行};
+    \node (config) [io, below of=start, node distance=1.8cm] {读取 config.yaml};
+    \node (backup) [process, below of=config, node distance=1.8cm] {执行自动备份};
+    
+    % 判定框通常比较大，给它更多空间
+    \node (loop) [decision, below of=backup, node distance=2.2cm] {遍历行数据}; 
+    
+    % 检查框
+    \node (check) [decision, below of=loop, node distance=2.5cm] {检查状态};
+    
+    % 右侧的处理框
+    \node (fetch) [process, right of=check, node distance=4.5cm] {网络抓取数据};
+    
+    % 写入框
+    \node (save) [process, below of=fetch, node distance=1.8cm] {写入Excel单元格};
+    
+    % 结束框 (放在左下角)
+    \node (end) [startstop, left of=check, node distance=4cm] {保存并结束};
+
+    % 2. 绘制连接线
     \draw [arrow] (start) -- (config);
     \draw [arrow] (config) -- (backup);
     \draw [arrow] (backup) -- (loop);
+    
+    % 遍历逻辑
     \draw [arrow] (loop) -- node[anchor=east] {有数据} (check);
-    \draw [arrow] (loop) -| node[anchor=south] {无更多数据} (end);
+    \draw [arrow] (loop) -| node[anchor=south] {无数据} (end);
+    
+    % 检查逻辑
     \draw [arrow] (check) -- node[anchor=south] {未处理} (fetch);
-    \draw [arrow] (check) -- node[anchor=west] {已处理/失败} (loop); % 回路
+    
+    % 这里的线条容易重叠，我们让它绕一下
+    % 如果“已处理”，直接回到循环
+    \draw [arrow] (check.west) -- node[anchor=south] {跳过} ++(-1.5,0) |- (loop.west);
+    
     \draw [arrow] (fetch) -- (save);
-    \draw [arrow] (save) |- (loop);
+    
+    % 写入后回到循环
+    \draw [arrow] (save.south) |- (0,-9.5) -- (-5,-9.5) |- (loop.west);
+
 \end{tikzpicture}
 \caption{软件核心处理逻辑流程图}
+\label{fig:flowchart}
 \end{figure}
 
 \subsection{第三步：监控运行进度}

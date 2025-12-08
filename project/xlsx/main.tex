@@ -1,0 +1,32 @@
+\documentclass[a4paper,10pt]{ctexart}
+
+% 页面设置：充分利用 A4 空间
+\usepackage[left=1.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+
+% 字体与中文支持
+\usepackage{fontspec}
+
+\newfontfamily\ipafont{Segoe UI}
+
+% 表格相关宏包
+\usepackage{longtable} % 长表格跨页
+\usepackage{booktabs}  %美观的三线表
+\usepackage{array}     % 表格控制
+\usepackage{xcolor}    % 颜色
+\usepackage{colortbl}  % 表格颜色
+
+% 设置行距
+\renewcommand{\arraystretch}{1.4} 
+
+\title{\textbf{My Vocabulary List}}
+\author{Haoran Guo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% 引入 Python 生成的内容
+\input{wordlist_content.tex}
+
+\end{document}
